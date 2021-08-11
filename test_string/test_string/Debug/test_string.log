@@ -1,0 +1,5 @@
+﻿  test.cpp
+D:\学习\c++\code\test_string\test_string\string.h(15,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(30,20): error C2664: “my_string::string::string(char *)”: 无法将参数 1 从“const char [6]”转换为“char *”
+D:\学习\c++\code\test_string\test_string\string.h(30,13): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
+D:\学习\c++\code\test_string\test_string\string.h(12,3): message : 参见“my_string::string::string”的声明
