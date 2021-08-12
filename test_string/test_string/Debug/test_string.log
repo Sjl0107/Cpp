@@ -1,5 +1,33 @@
 ﻿  test.cpp
-D:\学习\c++\code\test_string\test_string\string.h(15,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-D:\学习\c++\code\test_string\test_string\string.h(30,20): error C2664: “my_string::string::string(char *)”: 无法将参数 1 从“const char [6]”转换为“char *”
-D:\学习\c++\code\test_string\test_string\string.h(30,13): message : 从字符串文本转换将丢失 const 限定符(请参阅 /Zc:strictStrings)
-D:\学习\c++\code\test_string\test_string\string.h(12,3): message : 参见“my_string::string::string”的声明
+D:\学习\c++\code\test_string\test_string\string.h(208,11): error C2535: “sjl::string &sjl::string::operator +=(char)”: 已经定义或声明成员函数
+D:\学习\c++\code\test_string\test_string\string.h(203): message : 参见“sjl::string::operator +=”的声明
+D:\学习\c++\code\test_string\test_string\string.h(268): error C2572: “sjl::string::find”: 重定义默认参数 : 参数 1
+D:\学习\c++\code\test_string\test_string\string.h(256): message : 参见“sjl::string::find”的声明
+D:\学习\c++\code\test_string\test_string\string.h(267,10): error C2535: “size_t sjl::string::find(char,size_t)”: 已经定义或声明成员函数
+D:\学习\c++\code\test_string\test_string\string.h(256): message : 参见“sjl::string::find”的声明
+D:\学习\c++\code\test_string\test_string\string.h(155,37): error C2648: “sjl::string::npos”: 将成员作为默认参数使用要求静态成员
+D:\学习\c++\code\test_string\test_string\string.h(311): message : 参见“sjl::string::npos”的声明
+D:\学习\c++\code\test_string\test_string\string.h(155,37): error C2355: “this”: 只能在非静态成员函数或非静态数据成员初始值设定项的内部引用
+D:\学习\c++\code\test_string\test_string\string.h(155,37): error C2597: 对非静态成员“sjl::string::npos”的非法引用
+D:\学习\c++\code\test_string\test_string\string.h(311): message : 参见“sjl::string::npos”的声明
+D:\学习\c++\code\test_string\test_string\string.h(155,37): error C2440: “默认参数”: 无法从“unknown”转换为“size_t”
+D:\学习\c++\code\test_string\test_string\string.h(155,37): message : 没有使该转换得以执行的上下文
+D:\学习\c++\code\test_string\test_string\string.h(83,9): error C2789: “sjl::string::npos”: 必须初始化常量限定类型的对象
+D:\学习\c++\code\test_string\test_string\string.h(311): message : 参见“sjl::string::npos”的声明
+D:\学习\c++\code\test_string\test_string\string.h(88,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(126,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(199,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(210,1): error C2664: “void sjl::string::append(const char *)”: 无法将参数 1 从“const char”转换为“const char *”
+D:\学习\c++\code\test_string\test_string\string.h(210,17): message : 从整型强制转换为指针类型要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\学习\c++\code\test_string\test_string\string.h(186,8): message : 参见“sjl::string::append”的声明
+D:\学习\c++\code\test_string\test_string\string.h(222,15): warning C4018: “>=”: 有符号/无符号不匹配
+D:\学习\c++\code\test_string\test_string\string.h(241,15): warning C4018: “>=”: 有符号/无符号不匹配
+D:\学习\c++\code\test_string\test_string\string.h(251,4): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(269,1): error C2665: “strstr”: 2 个重载中没有一个可以转换所有参数类型
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(518,28): message : 可能是“char *strstr(char *const ,const char *const )”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vcruntime_string.h(82,38): message : 或    “const char *strstr(const char *,const char *)”
+D:\学习\c++\code\test_string\test_string\string.h(269,1): message : 尝试匹配参数列表“(char *, const char)”时
+D:\学习\c++\code\test_string\test_string\string.h(314,24): error C2761: “const size_t sjl::string::npos”: 不允许重新声明成员
+D:\学习\c++\code\test_string\test_string\string.h(381,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(386,4): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\学习\c++\code\test_string\test_string\string.h(394,5): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
