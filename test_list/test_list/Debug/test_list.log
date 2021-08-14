@@ -1,0 +1,65 @@
+﻿  test.cpp
+D:\学习\c++\code\test_list\test_list\list.h(144,4): error C2672: “swap”: 未找到匹配的重载函数
+D:\学习\c++\code\test_list\test_list\list.h(143): message : 在编译 类 模板 成员函数“sjl::list<int> &sjl::list<int>::operator =(const sjl::list<int> &)”时
+D:\学习\c++\code\test_list\test_list\list.h(305): message : 查看对正在编译的函数 模板 实例化“sjl::list<int> &sjl::list<int>::operator =(const sjl::list<int> &)”的引用
+D:\学习\c++\code\test_list\test_list\list.h(222): message : 查看对正在编译的 类 模板 实例化“sjl::list<int>”的引用
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(std::list<_Ty,_Alloc> &,std::list<_Ty,_Alloc> &) noexcept”: 未能从“sjl::__list_node<T> *”为“std::list<_Ty,_Alloc> &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\list(1804): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(std::unique_ptr<_Ty,_Dx> &,std::unique_ptr<_Ty,_Dx> &) noexcept”: 未能从“sjl::__list_node<T> *”为“std::unique_ptr<_Ty,_Dx> &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(3447): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(std::weak_ptr<_Ty> &,std::weak_ptr<_Ty> &) noexcept”: 未能从“sjl::__list_node<T> *”为“std::weak_ptr<_Ty> &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(3061): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(std::shared_ptr<_Ty> &,std::shared_ptr<_Ty> &) noexcept”: 未能从“sjl::__list_node<T> *”为“std::shared_ptr<_Ty> &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(1918): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(std::basic_string<_Elem,_Traits,_Alloc> &,std::basic_string<_Elem,_Traits,_Alloc> &) noexcept”: 未能从“sjl::__list_node<T> *”为“std::basic_string<_Elem,_Traits,_Alloc> &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xstring(4679): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(std::pair<_Ty1,_Ty2> &,std::pair<_Ty1,_Ty2> &) noexcept(<expr>)”: 未能从“sjl::__list_node<T> *”为“std::pair<_Ty1,_Ty2> &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\utility(341): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(_Ty (&)[_Size],_Ty (&)[_Size]) noexcept(<expr>)”: 未能从“sjl::__list_node<T> *”为“_Ty (&)[_Size]”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\type_traits(2022): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2782: “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”: 模板 参数“_Ty”不明确
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\type_traits(2019): message : 参见“std::swap”的声明
+D:\学习\c++\code\test_list\test_list\list.h(144,1): message : 可能是“sjl::__list_node<T> *const ”
+          with
+          [
+              T=int
+          ]
+D:\学习\c++\code\test_list\test_list\list.h(144,1): message : 或    “sjl::__list_node<T> *”
+          with
+          [
+              T=int
+          ]
+D:\学习\c++\code\test_list\test_list\list.h(144,1): error C2784: “void std::swap(_Ty &,_Ty &) noexcept(<expr>)”: 未能从“sjl::__list_node<T> *const ”为“_Ty &”推导 模板 参数
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\type_traits(2019): message : 参见“std::swap”的声明
