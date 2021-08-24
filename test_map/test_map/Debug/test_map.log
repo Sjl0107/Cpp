@@ -1,0 +1,17 @@
+﻿  test.cpp
+D:\学习\c++\code\test_map\test_map\my_map.h(21,29): error C2977: “RBTree”: 模板 参数太多
+D:\学习\c++\code\test_map\test_map\RBTree.h(165): message : 参见“RBTree”的声明
+D:\学习\c++\code\test_map\test_map\my_map.h(77): message : 查看对正在编译的 类 模板 实例化“sjl::map<K,V>”的引用
+D:\学习\c++\code\test_map\test_map\my_map.h(22,28): error C2955: “RBTree”: 使用 类 模板 需要 模板 参数列表
+D:\学习\c++\code\test_map\test_map\RBTree.h(165): message : 参见“RBTree”的声明
+D:\学习\c++\code\test_map\test_map\my_map.h(22,28): error C2039: "iterator": 不是 "RBTree<T>" 的成员
+D:\学习\c++\code\test_map\test_map\my_map.h(61,8): error C3203: “iterator”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Ty1”，应为 real 类型
+D:\学习\c++\code\test_map\test_map\test.cpp(36,24): error C2514: “std::iterator”: 无法构建类模板
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5905): message : 参见“std::iterator”的声明
+D:\学习\c++\code\test_map\test_map\test.cpp(36,23): error C2676: 二进制“!=”:“std::iterator”不定义该运算符或到预定义运算符可接收的类型的转换
+D:\学习\c++\code\test_map\test_map\test.cpp(36,23): error C2675: 一元“++”:“std::iterator”不定义该运算符或到预定义运算符可接收类型的转换
+D:\学习\c++\code\test_map\test_map\test.cpp(36,24): error C2100: 非法的间接寻址
+D:\学习\c++\code\test_map\test_map\test.cpp(38,23): error C2039: "first": 不是 "std::iterator" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5905): message : 参见“std::iterator”的声明
+D:\学习\c++\code\test_map\test_map\test.cpp(38,41): error C2039: "second": 不是 "std::iterator" 的成员
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(5905): message : 参见“std::iterator”的声明
