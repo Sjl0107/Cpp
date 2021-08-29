@@ -1,0 +1,21 @@
+﻿  test.cpp
+D:\学习\c++\code\Hash\Hash\HashTable.h(82,1): error C2955: “Close_Hash::HashData”: 使用 类 模板 需要 模板 参数列表
+D:\学习\c++\code\Hash\Hash\HashTable.h(19): message : 参见“Close_Hash::HashData”的声明
+D:\学习\c++\code\Hash\Hash\HashTable.h(126): message : 查看对正在编译的 类 模板 实例化“Close_Hash::HashTable<K,T,KeyOfT>”的引用
+D:\学习\c++\code\Hash\Hash\HashTable.h(124,10): error C3203: “HashData”: 未专用化的 类 模板 不能用作 模板 变量，该变量属于 模板 参数“_Ty”，应为 real 类型
+D:\学习\c++\code\Hash\Hash\HashTable.h(248,23): error C2065: “SetKeyOfT”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(248,33): error C2062: 意外的类型“int”
+D:\学习\c++\code\Hash\Hash\HashTable.h(248,36): error C2059: 语法错误:“>”
+D:\学习\c++\code\Hash\Hash\HashTable.h(249,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(250,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(251,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(252,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(253,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(254,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(255,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(256,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(257,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(258,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(259,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(261,3): error C2065: “ht”: 未声明的标识符
+D:\学习\c++\code\Hash\Hash\HashTable.h(262,3): error C2065: “ht”: 未声明的标识符
